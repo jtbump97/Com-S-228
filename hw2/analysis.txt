@@ -1,0 +1,15 @@
+My tests didn't exactly follow big O, however, most of the patterns that should be seen when 
+running sorts on lists were visible. For example, just like learned in class, Insertion sort is a 
+very inefficient way of sorting as proven by my tests. Insertion sort appeared to be almost exactly
+O(n), while merge and quick were considerably faster by a large amount.  Since merge and quick have 
+a range of Big O values which they can be, since they are at least smaller than insertion, they still
+seem to represent Big O pretty well. Overall, with larger lengths of lists, I noticed that quick sort
+was the best by a lot. Insertion sort takes so long for larger values, that it is almost useless. For
+example, insertion takes a few minutes while quick and merge take a few seconds. The total comparisons were also 
+a lot higher when it came to insertion than merge and quick which helped to show why the big O time is so much lower 
+for them. I was able to notice also that insertion can take quite a long time if I give it a really long
+list. This is another piece of evidence as to why it is important to care about speed when it comes to code.
+In my case, merge sorter seemed to be the best option because with a list of 10,000 and 1,000,000 total words,
+my merge sort code was able to do it in less than 5 seconds, which is a lot faster than insertion. Merge and 
+quick are supposed to be pretty close and considering insertion took so long, the fact that merge and quick were only
+20 seconds apart, it doesn't really seem like much.
